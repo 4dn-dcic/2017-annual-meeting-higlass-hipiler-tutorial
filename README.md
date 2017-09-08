@@ -59,6 +59,8 @@ The material will be most useful to computational biologists and biologists work
 
 * 25 minutes: 
   * Overview of common operations such as adding tracks, removing tracks, adding views, removing view, linking views by zoom and location
+    * Value scaling locking
+    * Export link, SVG and JSON
   * Practical: 
     * Create an interactive version of a figure
 * 10 minutes: Installing HiGlass
