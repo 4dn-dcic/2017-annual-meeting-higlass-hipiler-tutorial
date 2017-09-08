@@ -76,6 +76,14 @@ The material will be most useful to computational biologists and biologists work
 * How to load features from a BEDPE file into HiPiler [5min]
 * Questions [5min]
 
+** 5 minutes Feedback from the audience
+
+* What would you like to see added?
+* What data would you like to bring in?
+* Come talk to us!
+* Is there something you work on that we can make easier?
+* Why are you here?
+* Google form for feedback (anonymous)
 
 ## Instructor Bios
 
