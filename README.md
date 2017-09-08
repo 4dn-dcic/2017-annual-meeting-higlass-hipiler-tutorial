@@ -99,31 +99,6 @@ Peter is a postdoctoral researcher working on creating tools (such as HiGlass) f
 Fritz is a PhD student working on biomedical information visualization with focus on large multiscale genomic data sets. http://lekschas.de
 
 
-
-## Resources
-
-**Software:**
-
-* [bwa](https://github.com/lh3/bwa) and [SAM spec](https://samtools.github.io/hts-specs/SAMv1.pdf)
-* [pairsamtools](https://github.com/mirnylab/pairsamtools)
-* [pairix](https://github.com/4dn-dcic/pairix)
-* [cooler](https://github.com/mirnylab/cooler) and [docs](http://cooler.readthedocs.io/en/latest/)
-* [HiGlass](https://github.com/hms-dbmi/?q=higlass) and [wiki](https://github.com/hms-dbmi/higlass/wiki)
-* [HiPiler](https://github.com/flekschas/hipiler)
-
-
-**Bioinformatics workflow managers:**
-
-* [snakemake](https://snakemake.readthedocs.io/en/stable/)
-* [nextflow](https://www.nextflow.io/)
-
-
-**Package and environment management:**
-
-* [conda](https://conda.io/miniconda.html)
-* [bioconda](https://bioconda.github.io/)
-
-
 **Papers:**
 
 * Kerpedjiev, Peter, et al. "HiGlass: Web-based Visual Comparison And Exploration Of Genome Interaction Maps" bioRxiv. doi:[10.1101/121889](https://doi.org/10.1101/121889)
