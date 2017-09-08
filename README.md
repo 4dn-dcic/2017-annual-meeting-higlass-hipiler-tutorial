@@ -1,15 +1,10 @@
 # 4DN Annual Meeting 2017: 3D Genome Data Visualization Tutorial
 
-## Files in this repository
-
-* **Tutorial Part 1 (Data Processing and Visualization with HiGlass)**: [Introduction](https://github.com/hms-dbmi/3d-genome-processing-tutorial/blob/master/ISMB-Tutorial-Visualization-Intro.pdf) and ISMB-Tutorial-Part-2-Soo-Nils-Peter.html or [https://hms-dbmi.github.io/3d-genome-processing-tutorial/](https://hms-dbmi.github.io/3d-genome-processing-tutorial/)
-* **Tutorial Part 2 (Data Visualization with HiPiler)**: ISMB-Tutorial-Part-3-Ma.pdf
-
 ## Organizers & Presenters
 
-* [Nils Gehlenborg](http://gehlenborglab.org), Assistant Professor, Harvard Medical School
 * [Peter Kerpedjiev](http://emptypipes.org/about), Postdoctoral Research Fellow, Harvard Medical School
 * [Fritz Lekschas](http://lekschas.de), PhD student, Harvard University
+* [Nils Gehlenborg](http://gehlenborglab.org), Assistant Professor, Harvard Medical School
 
 
 ## Motivation
@@ -89,9 +84,6 @@ The material will be most useful to computational biologists and biologists work
 
 ## Instructor Bios
 
-### Nils Gehlenborg
-
-Nils is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School. His research group is developing tools to visualize 3D genome conformation data as well as heterogeneous data from large-scale cancer genomics studies. http://gehlenborglab.org 
 
 ### Peter Kerpedjiev
 
@@ -101,6 +93,9 @@ Peter is a postdoctoral researcher working on creating tools (such as HiGlass) f
 
 Fritz is a PhD student working on biomedical information visualization with focus on large multiscale genomic data sets. http://lekschas.de
 
+### Nils Gehlenborg
+
+Nils is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School. His research group is developing tools to visualize 3D genome conformation data as well as heterogeneous data from large-scale cancer genomics studies. http://gehlenborglab.org 
 
 **Papers:**
 
