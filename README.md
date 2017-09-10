@@ -50,7 +50,7 @@ The material will be most useful to computational biologists and biologists work
 
 * Who are we and what we'll cover? [5 minutes]
 
-**4:45 - 5:20 Hi-C Visualization Hi-C Data with HiGlass [Peter]**
+**4:45 - 5:15 Hi-C Visualization Hi-C Data with HiGlass [Peter]**
 
 * 25 minutes: 
   * Overview of common operations such as adding tracks, removing tracks, adding views, removing view, linking views by zoom and location
@@ -67,11 +67,11 @@ The material will be most useful to computational biologists and biologists work
     * Convert a bigWig file to hitile format and import it
     * Open both files in the client and navigate to an interesting location
 
-**5:20 - 5:35 Feature-centric Visualization: An Intro to HiPiler [Fritz]**
+**5:15 - 5:35 Feature-centric Visualization: An Intro to HiPiler [Fritz]**
 
-* What can you do with HiPiler [5min]
+* What can you do with HiPiler [12min]
 * How to load features from a BEDPE file into HiPiler [5min]
-* Questions [5min]
+* Questions [3min]
 
 **5:35 - 5:40 Feedback from the audience**
 
