@@ -6,6 +6,11 @@
 * [Fritz Lekschas](http://lekschas.de), PhD student, Harvard University
 * [Nils Gehlenborg](http://gehlenborglab.org), Assistant Professor, Harvard Medical School
 
+## Files and Links:
+
+* HiGlass Tutorial - [https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/](https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/)
+* HiPiler Tutorial - [hipiler-presentation.key](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.key?raw=true)
+
 
 ## Motivation
 
@@ -77,10 +82,9 @@ The material will be most useful to computational biologists and biologists work
 
 * What would you like to see added?
 * What data would you like to bring in?
-* Come talk to us!
-* Is there something you work on that we can make easier?
 * Why are you here?
-* Google form for feedback (anonymous)
+* Is there something you work on that we can make easier?
+* Come talk to us!
 
 ## Instructor Bios
 
