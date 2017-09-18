@@ -1,44 +1,43 @@
-# ISMB Tutorial: 3D Genome Data Processing, Analysis, and Visualization Tutorial
-
-## Files in this repository
-
-* **Tutorial Part 1 (Introduction to HiC)**: ISMB-Tutorial-Part-1-Nezar.pptx
-* **Tutorial Part 2 (Data Processing and Visualization)**: ISMB-Tutorial-Part-2-Soo-Nils-Peter.html or [https://hms-dbmi.github.io/3d-genome-processing-tutorial/](https://hms-dbmi.github.io/3d-genome-processing-tutorial/)
-* **Tutorial Part 3 (Data Analysis for Nuclear Compartmentalization)**: ISMB-Tutorial-Part-3-Ma.pdf
+# 4DN Annual Meeting 2017: 3D Genome Data Visualization Tutorial
 
 ## Organizers & Presenters
 
-* [Nezar Abdennur](http://nvictus.me/), PhD student, MIT
-* [Soo Lee](https://compbio.hms.harvard.edu/people/soohyun-lee), Senior Bioinformatics Scientist, Harvard Medical School
-* [Nils Gehlenborg](http://gehlenborglab.org/), Assistant Professor, Harvard Medical School
 * [Peter Kerpedjiev](http://emptypipes.org/about), Postdoctoral Research Fellow, Harvard Medical School
-* [Jian Ma](http://www.cs.cmu.edu/~jianma/), Associate Professor, Carnegie Mellon University
+* [Fritz Lekschas](http://lekschas.de), PhD student, Harvard University
+* [Nils Gehlenborg](http://gehlenborglab.org), Assistant Professor, Harvard Medical School
+
+## Files and Links:
+
+* HiGlass Tutorial - [https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/](https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/)
+* HiPiler Tutorial - [hipiler-presentation.key](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.key?raw=true)
+
 
 ## Motivation
 
 Due in large part to the explanatory power of chromosome organization in gene regulation, its association with disease and disorder as well as the unanswered questions regarding the mechanisms behind its maintenance and function, the 3D structure and function of the genome are becoming increasingly target of scientific scrutiny. With efforts such as the 4D Nucleome Project and ENCODE 4 already beginning to generate large amounts of data, the ability to analyze and visualize it will be a valuable asset to any computational biologist tasked with interpretation of experimental results.
 
+
 ## Objectives
 
-The objectives of this tutorial are
+The objectives of this tutorial are:
 
-* To introduce the theoretical concepts related to 3D genome data analysis
-* To familiarize participants with the data types, analysis pipeline, and common tools for analysis and visualization of 3D genome data
-* To provide a hands on experience in data analysis by walking through some common use cases of existing tools for data analysis and visualization.
+* To introduce the capabilities of HiGlass and HiPiler for visual exploration for large genomic data sets
+* To provide a hands on experience in setting up the infrastructure and loading data for visualization.
+
 
 ## Goal
 
-After the workshop participants should be able to obtain, process, analyze, and visualize 3D genome data on their own as well as to understand some of the logic, motivation and pitfalls associated with common operations such as matrix balancing and multi-resolution visualization.
+After the tutorial participants should know about the functionality of HiGlass and HiPiler to visually explore sequencing-based 3D genome data as well as how to get started using the tools on their own.
+
 
 ## Intended audience and level
 
-The subject matter and practical exercises presented in this tutorial will be accessible to a broad audience. Prior experience with next generation sequencing and the data it produces will be helpful for understanding the subsequent processing steps used to derive contact maps as well as some of the artifacts that can arise during data processing.
+The subject matter and practical exercises presented in this tutorial will be accessible to a broad audience. Prior experience with next generation sequencing and the data it produces will be helpful for understanding the underlying processes.
 
-The material will be most useful to computational biologists and biologists working on genomics-related topics. 
-Tentative Schedu
+The material will be most useful to computational biologists and biologists working on genomics-related topics.
 
 
-## Student Requirements:
+## Requirements:
 
 * Install Docker
   * https://www.docker.com/community-edition
@@ -47,83 +46,25 @@ Tentative Schedu
 * Windows users
   * Putty (for ssh)
   * https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* Python with Pandas
+  
   
 ## Agenda
 
-**10:00 - 10:25 - Introduction and Overview**
+**4:40 - 4:45 - Introduction and Overview**
 
-* Who are we? [5 minutes]
-* What we’ll cover [5 minutes]
-* AWS accounts and ssh in [10 minutes]
+* Who are we and what we'll cover? [5 minutes]
 
-**10:25 - 11:30 Hi-C Analysis**
+**4:45 - 5:15 Hi-C Visualization Hi-C Data with HiGlass [Peter]**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Intro to Hi-C [Nezar]**
-
-* 15 minutes:
-  * Introduction
-    * Protocol
-    * What Hi-C sees
-    * Levels of genome organization inferred from patterns
-      * Checkering: compartments
-      * Enriched squares without checkering: TADs
-      * Corner peaks: loops
-    * How Hi-C is processed
-    * How features are assessed
-  * Hi-C processing steps (informational)
-    * Mapping
-    * Filtering
-    * Creating a list of contacts
-    * Binning
-    * Normalization
-    * Feature analysis
-      * scaling
-      * compartments
-      * TADs
-    * QC
-
-* 45min
-  * Practical - processing pipeline [Soo]: 
-    * Mapping
-      * bwa mem -SP5M index fastq1 fastq2 | samtools view -bhS - > output.bam
-      * samtools view output.bam | head -n 5
-      * output: bam file
-    * Filtering / sorting / Creating a list of contacts
-      * pairsamtools
-      * outputs: pairs, bam
-      * Pairs / pairix (indexes the pairs file)
-    * Binning
-      * Cooler / cool
-    * Normalization
-      * Cooler / cool
-    * map a small Hi-C dataset using distiller (https://github.com/mirnylab/distiller) and generate contact matrices using cooler (https://github.com/mirnylab/cooler)
-  * Practical - Feature analysis [Nezar]: 
-    * Jupyter notebook cooler walkthrough
-    * Cis vs trans and scaling (contact probability vs genomic distance)
-    * Compartment profile, saddle plots
-    * Insulation, TADs
-    * Pileups
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**11:30 - 11:45 Coffee Break**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**11:45 - 12:55 Visualization**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Existing tools for contact matrix exploration**
-
-* 20 minutes [Nils]: 
-  * 3D genome browser	
-  * WashU epigenome browser
-  * Juicebox
-  * HiGlass 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Using HiGlass (http://higlass.io) to display contact maps [Peter]**
-
-* 30 minutes: 
+* 25 minutes: 
   * Overview of common operations such as adding tracks, removing tracks, adding views, removing view, linking views by zoom and location
+    * Horizontal heatmaps and flipping them
+    * Value scaling locking
+    * Export link, SVG and JSON
   * Practical: 
     * Create an interactive version of a figure
-* 20 minutes: Installing HiGlass
+* 10 minutes: Installing HiGlass
   * Overview of the HiGlass architecture and description of the infrastructure used to run it
   * Practical: 
     * Create a local HiGlass instance
@@ -131,62 +72,36 @@ Tentative Schedu
     * Convert a bigWig file to hitile format and import it
     * Open both files in the client and navigate to an interesting location
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**12:55 - 1:30 - Data Analysis for Nuclear Compartmentalization [Jian Ma]**
+**5:15 - 5:35 Feature-centric Visualization: An Intro to HiPiler [Fritz]**
 
-* Introduction
-* DamID analysis
-* Repli-seq analysis
-* Data from emerging technologies
+* What can you do with HiPiler [12min]
+* How to load features from a BEDPE file into HiPiler [5min]
+* Questions [3min]
 
+**5:35 - 5:40 Feedback from the audience**
+
+* What would you like to see added?
+* What data would you like to bring in?
+* Why are you here?
+* Is there something you work on that we can make easier?
+* Come talk to us!
 
 ## Instructor Bios
 
-### Nezar Abdennur
-
-Nezar is a PhD candidate in Computational and Systems Biology at MIT. His research focuses on the determinants of 3D genome organization and the development of tools for dealing with large Hi-C datasets. http://nvictus.me
-
-### Soo Lee
-
-Soo Lee is a Senior Bioinformatics Scientist in the Department of Biomedical Informatics at Harvard Medical School. She is creating cloud-based pipelines for Hi-C and other genomic data and developing infrastructure for automation of such pipelines as part of the 4D Nucleome Data Coordination and Integration Center. https://soolee.github.io/
-
-### Nils Gehlenborg
-
-Nils is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School. His research group is developing tools to visualize 3D genome conformation data as well as heterogeneous data from large-scale cancer genomics studies. http://gehlenborglab.org 
 
 ### Peter Kerpedjiev
 
 Peter is a postdoctoral researcher working on creating tools (such as HiGlass) for visualizing large genomic data sets. Web site: http://emptypipes.org/about
 
-### Jian Ma
+### Fritz Lekschas
 
-Jian Ma is an Associate Professor in the School of Computer Science at Carnegie Mellon University. The research in his group focuses on developing algorithms to better understand genome structure and function. http://www.cs.cmu.edu/~jianma/
+Fritz is a PhD student working on biomedical information visualization with focus on large multiscale genomic data sets. http://lekschas.de
 
+### Nils Gehlenborg
 
-## Resources
+Nils is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School. His research group is developing tools to visualize 3D genome conformation data as well as heterogeneous data from large-scale cancer genomics studies. http://gehlenborglab.org 
 
-Software
+**Papers:**
 
-* [bwa](https://github.com/lh3/bwa) and [SAM spec](https://samtools.github.io/hts-specs/SAMv1.pdf)
-* [pairsamtools](https://github.com/mirnylab/pairsamtools)
-* [pairix](https://github.com/4dn-dcic/pairix)
-* [cooler](https://github.com/mirnylab/cooler) and [docs](http://cooler.readthedocs.io/en/latest/)
-* [HiGlass](http://cooler.readthedocs.io/en/latest/) and [wiki](https://github.com/hms-dbmi/higlass/wiki)
-* [HiPiler](https://github.com/flekschas/hipiler)
-
-
-Bioinformatics workflow managers
-
-* [snakemake](https://snakemake.readthedocs.io/en/stable/)
-* [nextflow](https://www.nextflow.io/)
-
-
-Package and environment management
-
-* [conda](https://conda.io/miniconda.html)
-* [bioconda](https://bioconda.github.io/)
-
-
-Hi-C methods papers
-
-* Imakaev, Maxim, et al. "Iterative correction of Hi-C data reveals hallmarks of chromosome organization." Nature methods 9.10 (2012): 999-1003. doi:[10.1038/nmeth.2148](https://doi.org/10.1038/nmeth.2148)
-* Lajoie, Bryan R., Job Dekker, and Noam Kaplan. "The Hitchhiker’s guide to Hi-C analysis: practical guidelines." Methods 72 (2015): 65-75. doi:[10.1016/j.ymeth.2014.10.031](https://doi.org/10.1016/j.ymeth.2014.10.031)
+* Kerpedjiev, Peter, et al. "HiGlass: Web-based Visual Comparison And Exploration Of Genome Interaction Maps" bioRxiv. doi:[10.1101/121889](https://doi.org/10.1101/121889)
+* Lekschas, Fritz et al. "HiPiler: Visual Exploration Of Large Genome Interaction Matrices With Interactive Small Multiples" IEEE Transactions on Visualization and Computer Graphics, InfoVis 2017. [doi:10.1101/123588](https://vcg.seas.harvard.edu/publications/hipiler-visual-exploration-of-large-genome-interaction-matrices-with-interactive-small-multiples)
