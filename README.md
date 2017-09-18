@@ -11,10 +11,24 @@
 * HiGlass Tutorial - [https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/](https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/)
 * HiPiler Tutorial - [hipiler-presentation.key](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.key?raw=true)
 
+## Feedback
+
+We've created a [very short questionnaire to help us improve our
+tools](https://goo.gl/forms/jCllHdoSvaK8SIUv2). If you have a moment, we would
+love to hear about what you're working on and how we can help you
+explore your data.
+
 
 ## Motivation
 
-Due in large part to the explanatory power of chromosome organization in gene regulation, its association with disease and disorder as well as the unanswered questions regarding the mechanisms behind its maintenance and function, the 3D structure and function of the genome are becoming increasingly target of scientific scrutiny. With efforts such as the 4D Nucleome Project and ENCODE 4 already beginning to generate large amounts of data, the ability to analyze and visualize it will be a valuable asset to any computational biologist tasked with interpretation of experimental results.
+Due in large part to the explanatory power of chromosome organization in gene
+regulation, its association with disease and disorder as well as the unanswered
+questions regarding the mechanisms behind its maintenance and function, the 3D
+structure and function of the genome are becoming increasingly target of
+scientific scrutiny. With efforts such as the 4D Nucleome Project and ENCODE 4
+already beginning to generate large amounts of data, the ability to analyze and
+visualize it will be a valuable asset to any computational biologist tasked
+with interpretation of experimental results.
 
 
 ## Objectives
