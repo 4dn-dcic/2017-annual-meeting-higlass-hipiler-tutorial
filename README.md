@@ -12,7 +12,7 @@
 ## Files and Links:
 
 * HiGlass Tutorial - [https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/](https://4dn-dcic.github.io/2017-annual-meeting-higlass-hipiler-tutorial/)
-* HiPiler Tutorial - [hipiler-presentation.key](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.key?raw=true)
+* HiPiler Tutorial - [hipiler-presentation.pdf](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.pdf?raw=true) | [hipiler-presentation.key](https://github.com/4dn-dcic/2017-annual-meeting-higlass-hipiler-tutorial/blob/master/hipiler-presentation.key?raw=true)
 
 ## Feedback
 
